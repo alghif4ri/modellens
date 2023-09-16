@@ -1,0 +1,9 @@
+body {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 20px 50px 20px 50px;
+}
