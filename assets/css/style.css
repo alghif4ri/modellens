@@ -1,9 +1,37 @@
 body {
-  padding-top: 1rem;
+  padding-top: 0;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  padding: 20px 50px 20px 50px;
+ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
+  text-transform: uppercase;
+}
+
+div.container-fluid {
+  width: 1080px;
+  height: 80px;
+  
+}
+
+div div h2 {
+  text-align: center;
+}
+
+div div p {
+  text-align: center;
+}
+
+div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div div span {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+p.card-text {
+  text-align: left;
 }
