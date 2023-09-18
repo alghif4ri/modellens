@@ -230,10 +230,11 @@ a.dropdown-item:hover {
 }
 
 .hero-footer .ctahero p {
-  font-size: 1.2rem;
+  width: 100%;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--txt);
-  text-align: justify;
+  text-align: center;
 }
 
 .hero-footer .ctahero span {
