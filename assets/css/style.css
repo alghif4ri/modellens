@@ -10,9 +10,9 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
-  color: var(--txt);
 }
 
+/* Navbar Start */
 .navbar {
   background-color: var(--bg);
 }
@@ -34,25 +34,6 @@ div.container-fluid {
   height: 50px;
 }
 
-nav.navbar.shrink {
-  min-height: 35px;
-}
-
-nav.shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
-}
-
-nav.shrink .navbar-brand {
-  font-size: 25px;
-}
-
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
-
 a.dropdown-item {
   color: var(--txt);
 }
@@ -60,111 +41,143 @@ a.dropdown-item {
 a.dropdown-item:hover {
   color: var(--primary);
 }
+/* Navbar End */
 
-div div h2 {
+/* Carousel Start */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 100vh;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+/* Carousel End */
+
+/* Marriage Start */
+
+.marriage h2 {
+  font-weight: 700;
+  color: var(--head);
+  text-align: center;
+}
+.marriage p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--txt);
   text-align: center;
 }
 
-div div p {
-  text-align: center;
-}
-
-div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-div div span {
-  padding-bottom: 5px;
-  padding-top: 10px;
-}
-
-p.card-text {
-  text-align: left;
-}
-
-div.card {
+.marriage .row .card {
   border-style: none;
 }
 
-div span h2,
-button.btn {
-  color: var(--head);
+.marriage .row .card .btn {
+  color: var(--btn);
 }
 
-h2.fw-bold.text-body-emphasis {
-  color: var(--head);
+.marriage .row .card-text {
+  font-size: 1rem;
+  text-align: justify;
 }
 
-h4.fw-semibold.mb-0.text-body-emphasis {
-  color: var(--head);
+/* Marriage End */
+
+/* Why Section Start */
+
+.why {
+  padding: 1rem;
 }
 
-button.btn.btn-primary {
-  background-color: var(--btn);
-  color: var(--bg);
-}
-
-button.btn.btn-primary:hover {
-  opacity: 0.7;
-}
-
-p.text-body-secondary {
-  text-align: left;
-}
-
-.myheroes img {
-  width: 7rem;
-  padding-bottom: 1rem;
-}
-
-button.btn.btn-primary.porto {
-  position: relative;
-  top: 1rem;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-div.card-title {
+.why h2 {
+  font-weight: 700;
+  color: var(--head) !important;
   text-align: center;
 }
 
-.services,
-.myporto {
-  padding: 8rem 7% 1.4rem;
+.why .img-container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.features-why {
-  padding-bottom: 0;
+.why .img-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
 }
 
-.hero-about {
-  padding-top: 0;
+.why .why-point .why-point-item h4 {
+  color: var(--head) !important;
 }
 
-.ctahero {
-  background-color: var(--primary);
+/* Why Section End */
+
+/* About Section Start */
+.about {
+  padding: 1rem;
 }
 
-footer {
-  border-top: 1px solid #6666;
+.about .about-img img {
+  width: 600px;
 }
 
-footer .footer-logo {
-  position: absolute;
-  display: inline-block;
-  left: 50%;
+.about .about-text img {
+  width: 100px;
 }
 
-div.py-5.text-center.ctahero {
-  height: 80vh;
+.about .about-text h2 {
+  color: var(--head) !important;
+  font-weight: 700;
 }
-/* 
-h1.display-5.fw-bold.text-body-emphasis {
-  padding-top: 5rem;
-} */
 
+.about .about-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--txt);
+  text-align: justify;
+}
+
+/* About Section End */
+
+/* Porto Section Start */
+
+.porto {
+  padding: 1rem;
+}
+
+/* Porto Section End */
+
+/* Hero Footer Section Start */
+
+.hero-footer {
+  padding-top: 1rem;
+}
+
+/* Hero Footer Section End */
 @media (max-width: 1366px) {
   /* html {
     font-size: 75%;
@@ -175,6 +188,20 @@ h1.display-5.fw-bold.text-body-emphasis {
   html {
     font-size: 85%;
   }
+  .why .img-container {
+    width: 320px;
+    /* background-color: #0a0a23; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why .img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
@@ -184,26 +211,109 @@ h1.display-5.fw-bold.text-body-emphasis {
   /* html {
     font-size: 85%;
   } */
+
+  .why h2 {
+    /* width: 400px; */
+    /* background-color: #0a0a23; */
+  }
+
+  .why .img-container {
+    width: 310px;
+    /* background-color: #0a0a23; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why .img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
-
-  h1.display-5.fw-bold.text-body-emphasis {
-    padding-top: 5rem;
-  }
-
-  .features-why {
-    align-items: center;
-    padding: 1rem;
-  }
-
-  
 }
+@media (max-width: 767px) {
+  /* html {
+    font-size: 85%;
+  } */
 
+  .why h2 {
+    width: 600px;
+    /* background-color: #0a0a23; */
+  }
+
+  .why .img-container {
+    width: 600px;
+    /* background-color: #0a0a23; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why .img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+
+  .about .about-img {
+    background-color: #0a0a23;
+    width: 100%;
+  }
+}
 /* Mobile */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+
+  .why {
+    padding-bottom: 0;
+  }
+  .why h2 {
+    width: 400px;
+    /* background-color: #0a0a23; */
+  }
+
+  .why .img-container {
+    width: 400px;
+    /* background-color: #0a0a23; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why .why-point .why-point-item {
+    /* background-color: #0a0a23; */
+    align-items: center;
+  }
+
+  .why .why-point .why-point-item p {
+    text-align: center;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+  .about .about-img {
+    /* background-color: #0a0a23; */
+    width: 600px;
+  }
+
+  .about .about-img img {
+    width: 300px;
+  }
+
+  .about .about-text img {
+    padding-bottom: 1rem;
+  }
+
+  .about .about-text p {
+    line-height: 2;
   }
 }
 
