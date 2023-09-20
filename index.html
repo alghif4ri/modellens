@@ -33,8 +33,15 @@
     <!-- bootrap style -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <!-- mystyle -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/hovereffect.css" />
     <!-- Features -->
     <link rel="stylesheet" href="assets/css/features.css" />
     <!-- Heroes -->
@@ -281,7 +288,63 @@
       <!-- Carousel Section End -->
       <!-- Marriage Section Start -->
       <section class="marriage" id="marriage">
-        <div class="album py-3 bg-body-tertiary services">
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">ABADIKAN SETIAP MOMENT BERHARGA</h2>
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg hovereffect">
+                <div class="d-flex flex-column h-100 text-shadow-1 ">
+                  <img
+                    class="img-responsive"
+                    src="http://placehold.it/500x500"
+                    alt=""
+                  />
+                  <div class="overlay">
+                    <a class="info" href="#">Engagement</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg hovereffect"
+              >
+                <div
+                  class="d-flex flex-column h-100 text-shadow-1 "
+                >
+                  <img
+                    class="img-responsive"
+                    src="http://placehold.it/500x500"
+                    alt=""
+                  />
+                  <div class="overlay">
+                    <a class="info" href="#">Prewedding</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg hovereffect"
+              >
+                <div class="d-flex flex-column h-100 text-shadow-1 ">
+                  <img
+                    class="img-responsive"
+                    src="http://placehold.it/500x500"
+                    alt=""
+                  />
+                  <div class="overlay">
+                    <a class="info" href="#">Wedding</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="album py-3 bg-body-tertiary services">
           <div class="container">
             <span>
               <h2>Siap abadikan setiap moment berharga</h2>
@@ -347,8 +410,31 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
+      <!-- 
+      <section class="marriage-mobile">
+        <div class="swiper mobile-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://placehold.co/600x400" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://placehold.co/600x400" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://placehold.co/600x400" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://placehold.co/600x400" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section> -->
+
       <!-- Marriage Section End -->
       <!-- Why Section Start -->
       <section class="why" id="why">
@@ -450,41 +536,73 @@
             <span>
               <h2>Mereka yang sudah mengabadikan moment</h2>
             </span>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card">
-                  <img src="https://source.unsplash.com/300x300/" alt="" />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <p>Nama Pasangan</p>
-                    </div>
-                  </div>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
                 </div>
               </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://source.unsplash.com/300x300/" alt="" />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <p>Nama Pasangan</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="https://source.unsplash.com/300x300/" alt="" />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <p>Nama Pasangan</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="porto-btn-container">
+            <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/300x300/" alt="" />
+                  <div class="card-body">
+                    <div class="card-title">
+                      <p>Nama Pasangan</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/300x300/" alt="" />
+                  <div class="card-body">
+                    <div class="card-title">
+                      <p>Nama Pasangan</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://source.unsplash.com/300x300/" alt="" />
+                  <div class="card-body">
+                    <div class="card-title">
+                      <p>Nama Pasangan</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="porto-btn-container">
               <button class="btn btn-primary porto-btn">Lebih Banyak</button>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -496,7 +614,8 @@
           <h2>Siap mengabadikan momen bersama ModeLens ?</h2>
           <div class="col-lg-8 mx-auto">
             <p class="lead mb-4">
-              Segera hubungi tim Smoothlens untuk mendapatkan penawaran spesial dan klaim sebelum kuota penuh.
+              Segera hubungi tim Smoothlens untuk mendapatkan penawaran spesial
+              dan klaim sebelum kuota penuh.
             </p>
             <span>
               <button class="btn btn-primary">Book Now</button>
@@ -551,5 +670,27 @@
     </main>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+      });
+    </script>
   </body>
 </html>
