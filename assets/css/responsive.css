@@ -60,20 +60,20 @@
     /* background-color: #0a0a23; */
   }
 
-  .why .img-container {
+  /* .why .img-container {
     width: 310px;
-    /* background-color: #0a0a23; */
+    background-color: #0a0a23;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
+  } */
+/* 
   .why .img-container img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
-  }
+  } */
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
