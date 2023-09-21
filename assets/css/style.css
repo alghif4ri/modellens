@@ -229,7 +229,7 @@ a.dropdown-item:hover {
 
 .hero-footer:after {
   content: "";
-  background: url("/assets/img/footer_bg.jpg") no-repeat center center;
+  background: url("https://source.unsplash.com/1200x200") no-repeat center center;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -256,7 +256,8 @@ a.dropdown-item:hover {
   padding: 1rem;
   /* position: relative; */
   font-weight: 700;
-  color: white !important;
+  color: var(--head) !important;
+  mix-blend-mode: difference;
   text-align: center;
   z-index: 3;
 }
