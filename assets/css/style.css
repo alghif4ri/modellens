@@ -62,6 +62,53 @@ a.dropdown-item:hover {
 
 /* Carousel End */
 
+/* Jumbotron Start */
+
+.jumbotron {
+  padding: 0;
+}
+
+.jumbotron-bg {
+  width: 1349px;
+  height: 608px;
+  /* background-color: #000000 !important; */
+  background-image: url("https://source.unsplash.com/random/1200x600/?Couple&4/");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron h1 {
+  color: var(--head);
+}
+
+/* Jumbotron End */
+
+/* Gallery Start */
+.gallery-content-title {
+  width: 100%;
+}
+.gallery-content-title h1 {
+  display: block;
+  justify-content: center;
+  color: var(--head);
+  font-size: 2.2rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.gallery-content-paragraf p {
+  /* width: auto ; */
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: var(--txt);
+}
+
+.gallery-items .item .card{
+  border-style: none;
+}
+/* Gallery End */
+
 /* Marriage Start */
 
 .marriage h2 {
@@ -141,19 +188,17 @@ a.dropdown-item:hover {
   height: 600px;
 }
 */
-.why .why-img-bg{
+.why .why-img-bg {
   /* background-color: #000000; */
   width: 570px;
   height: 450px;
   /* background-image: url("https://source.unsplash.com/570x600"); */
-} 
+}
 /* 
 .why .why-img-bg .img-why{
   display: block;
   width: 100px;
 } */
-
-
 
 .why .img-container img {
   display: flex;
@@ -229,7 +274,8 @@ a.dropdown-item:hover {
 
 .hero-footer:after {
   content: "";
-  background: url("https://source.unsplash.com/1200x200") no-repeat center center;
+  background: url("https://source.unsplash.com/1200x200") no-repeat center
+    center;
   position: absolute;
   top: 0px;
   left: 0px;

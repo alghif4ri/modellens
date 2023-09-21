@@ -43,5 +43,3 @@ $(window).scroll(function () {
     }
 });
 
-// swiper
-
