@@ -5,7 +5,7 @@
     font-size: 1.25rem;
     line-height: 1.4;
   }
-  
+
   .featurette-heading {
     font-size: 50px;
   }
@@ -14,17 +14,24 @@
   /* html {
     font-size: 75%;
   } */
-  
-  .footerer p{
+
+  .hovereffect-why {
+    background-image: url("https://source.unsplash.com/random/");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .footerer p {
     font-size: 1.1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 100px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 24px;
     height: 24px;
   }
@@ -53,20 +60,20 @@
   }
 
   .jumbotron-bg {
-  padding: 0rem;
-  display: flex;
-  align-items:center;
-  width: 830px;
-  height: 400px;
-  /* height: 100hv; */
-  /* background-color: #000000 !important; */
-  background-image: url("https://placehold.co/830x400");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 830px;
+    height: 400px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/830x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-  .why .why-container{
+  .why .why-container {
     display: flex;
     justify-content: center;
   }
@@ -86,25 +93,63 @@
     width: 150px;
   }
 
-
-  .why .why-point{
+  .why .why-point {
     width: 600px;
+  }
+
+  .about .about-img img {
+  width: 680px;
+  height: 350px;
+  }
+
+  
+  .porto {
+    padding-bottom: 1rem;
+  }
+
+  .porto .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  .why .why-img-bg {
+    /* background-color: #000000; */
+    width: 600px;
+    height: 450px;
+    /* background-image: url("https://source.unsplash.com/570x600"); */
+  }
+
+
+  .hovereffect-why {
+    background-image: url("https://source.unsplash.com/random/");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    left: 140px;
   }
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
 
-  
-  .footerer p{
+  .footerer p {
     font-size: 1.1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 80px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 14px;
     height: 14px;
   }
@@ -116,16 +161,16 @@
   } */
 
   .jumbotron-bg {
-  padding: 0rem;
-  width: 790px;
-  height: 400px;
-  /* height: 100hv; */
-  /* background-color: #000000 !important; */
-  background-image: url("https://placehold.co/700x400");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+    padding: 0rem;
+    width: 790px;
+    height: 400px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/700x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .why h2 {
     /* width: 400px; */
@@ -140,29 +185,60 @@
     align-items: center;
   }
 
-  
-/* 
-  .why .img-container img {
+  .about .about-img img {
+  width: 680px;
+  height: 350px;
+  }
+
+  .porto {
+    padding-bottom: 1rem;
+  }
+
+  .porto .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  .why .why-img-bg {
+    /* background-color: #000000; */
+    width: 600px;
+    height: 450px;
+    /* background-image: url("https://source.unsplash.com/570x600"); */
+  }
+
+
+  .hovereffect-why {
+    background-image: url("https://source.unsplash.com/random/");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.4rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-  } */
+    text-align: center;
+    left: 140px;
+  }
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
 
   
-  .footerer p{
+
+  .footerer p {
     font-size: 1.1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 80px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 14px;
     height: 14px;
   }
@@ -196,18 +272,18 @@
     /* background-color: #0a0a23; */
     width: 100%;
   }
-
   
-  .footerer p{
+
+  .footerer p {
     font-size: 1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 70px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 10px;
     height: 10px;
   }
@@ -218,20 +294,19 @@
     font-size: 55%;
   }
 
-  
-.jumbotron-bg {
-  padding: 0rem;
-  display: flex;
-  align-items:center;
-  width: 390px;
-  height: 400px;
-  /* height: 100hv; */
-  /* background-color: #000000 !important; */
-  background-image: url("https://placehold.co/300x400");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .jumbotron-bg {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 400px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/300x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .why {
     padding-bottom: 0;
@@ -267,7 +342,8 @@
   }
 
   .about .about-img img {
-    width: 300px;
+    width: 570px;
+  height: 250px;
   }
 
   .about .about-text img {
@@ -276,6 +352,40 @@
 
   .about .about-text p {
     line-height: 2;
+  }
+
+  .porto {
+    padding-bottom: 1rem;
+  }
+
+  .porto .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  .why .why-img-bg {
+    /* background-color: #000000; */
+    width: 400px;
+    height: 250px;
+    /* background-image: url("https://source.unsplash.com/570x600"); */
+  }
+
+
+  .hovereffect-why {
+    background-image: url("https://source.unsplash.com/random/");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    left: 90px;
   }
 }
 
@@ -284,20 +394,19 @@
     font-size: 55%;
   }
 
-  
-.jumbotron-bg {
-  padding: 0rem;
-  display: flex;
-  align-items:center;
-  width: 430px;
-  height: 400px;
-  /* height: 100hv; */
-  /* background-color: #000000 !important; */
-  background-image: url("https://placehold.co/300x400");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .jumbotron-bg {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 430px;
+    height: 400px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/300x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .why {
     padding-bottom: 0;
@@ -327,13 +436,10 @@
   .about {
     padding-top: 0;
   }
-  .about .about-img {
-    /* background-color: #0a0a23; */
-    width: 600px;
-  }
 
   .about .about-img img {
-    width: 300px;
+  width: 370px;
+  height: 250px;
   }
 
   .about .about-text img {
@@ -344,17 +450,16 @@
     line-height: 2;
   }
 
-  
-  .footerer p{
+  .footerer p {
     font-size: 1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 70px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 10px;
     height: 10px;
   }
@@ -365,20 +470,19 @@
     font-size: 55%;
   }
 
-  
-.jumbotron-bg {
-  padding: 0rem;
-  display: flex;
-  align-items:center;
-  width: 370px;
-  height: 400px;
-  /* height: 100hv; */
-  /* background-color: #000000 !important; */
-  background-image: url("https://placehold.co/300x400");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .jumbotron-bg {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 400px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/300x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .why {
     padding-bottom: 0;
@@ -414,7 +518,8 @@
   }
 
   .about .about-img img {
-    width: 300px;
+  width: 350px;
+  height: 250px;
   }
 
   .about .about-text img {
@@ -425,17 +530,63 @@
     line-height: 2;
   }
 
-  .footerer p{
+  .hovereffect-why {
+    background-image: url("https://source.unsplash.com/random/");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    left: 90px;
+  }
+
+  .footerer p {
     font-size: 1rem;
   }
 
-  .footer img{
+  .footer img {
     width: 70px;
     height: auto;
   }
 
-  .footer ul li a .bi{
+  .footer ul li a .bi {
     width: 10px;
     height: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+.hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    left: 90px;
+  }
+
+  .about .about-img img {
+  width: 330px;
+  height: 250px;
+  }
+}
+
+
+@media (max-width: 320px) {
+.hovereffect-why .overlay h2 {
+    font-family: "Poppins", sans-serif !important ;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    left: 50px;
+  }
+
+  .about .about-img img {
+  width: 280px;
+  height: 250px;
   }
 }

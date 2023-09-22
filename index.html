@@ -117,14 +117,14 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#" role="button"> Marriage </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Engagement</a></li>
+                    <li><a class="dropdown-item" href="engagement.html">Engagement</a></li>
                     <li>
                       <a class="dropdown-item" href="#">Prewedding</a>
                     </li>
@@ -345,97 +345,7 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="album py-3 bg-body-tertiary services">
-          <div class="container">
-            <span>
-              <h2>Siap abadikan setiap moment berharga</h2>
-              <p>
-                ModeLens memiliki berbagai kategori layanan foto dan video mulai
-                dari:
-              </p>
-            </span>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://source.unsplash.com/300x300/random"
-                    alt=""
-                  />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <button class="btn">Engagement</button>
-                    </div>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://source.unsplash.com/300x300/random"
-                    alt=""
-                  />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <button class="btn">Prewedding</button>
-                    </div>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://source.unsplash.com/300x300/random"
-                    alt=""
-                  />
-                  <div class="card-body">
-                    <div class="card-title">
-                      <button class="btn">Wedding</button>
-                    </div>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </section>
-      <!-- 
-      <section class="marriage-mobile">
-        <div class="swiper mobile-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="https://placehold.co/600x400" />
-            </div>
-            <div class="swiper-slide">
-              <img src="https://placehold.co/600x400" />
-            </div>
-            <div class="swiper-slide">
-              <img src="https://placehold.co/600x400" />
-            </div>
-            <div class="swiper-slide">
-              <img src="https://placehold.co/600x400" />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </section> -->
 
       <!-- Marriage Section End -->
       <!-- Why Section Start -->
@@ -447,12 +357,7 @@
             <div
               class="col d-flex flex-column align-items-start gap-2 why-img-bg"
             >
-              <div class="hovereffect-about">
-                <img
-                  class="img-responsive"
-                  src="https://source.unsplash.com/570x600"
-                  alt=""
-                />
+              <div class="hovereffect-why">
                 <div class="overlay">
                   <h2>Mengapa bersama ModeLens?</h2>
                 </div>
@@ -513,8 +418,10 @@
       <section id="about" class="about">
         <div class="container col-xxl-8 px-4 py-2 hero-about">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6 about-img">
-              <img src="https://source.unsplash.com/700x500" />
+            <div class="col-12 col-lg-6 col-sm-8">
+              <span class="about-img">
+                <img src="https://source.unsplash.com/random/500x300" />
+              </span>
             </div>
             <div class="col-lg-6 about-text">
               <img src="assets/logo/logo_pg-guarantee_desktop.png" alt="" />
@@ -582,6 +489,21 @@
       </section>
       <!-- Porto Section End -->
 
+      <!-- Quote Section Start -->
+      <section class="quote">
+        <div class="card">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>loading...</p>
+              <footer class="blockquote-footer">
+                <cite title="Source Title"></cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <!-- Quote Section End -->
+
       <!-- Hero Footer Section Start -->
       <section id="hero-footer" class="hero-footer">
         <div class="ctahero">
@@ -598,38 +520,40 @@
       <section id="footer" class="footer">
         <div class="container">
           <footer
-            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2"
           >
             <p class="col-md-4 mb-0 text-body-secondary">
-              &copy; 2023 ModeLens, All rights reserved.
+              &copy; 2023 ModeLens,<br> All rights reserved.
             </p>
 
             <a
               href="#home"
               class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
             >
-              <img src="assets/logo/logo-modelens.png" width="80" alt="" />
+              <img src="assets/logo/logo-modelens.png" alt="" />
             </a>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
               <li class="ms-3">
                 <a class="text-body-secondary" href="#">
-                  <svg class="bi" width="24" height="24">
+                  <svg class="bi">
                     <use xlink:href="#twitter" />
                   </svg>
                 </a>
               </li>
               <li class="ms-3">
-                <a class="text-body-secondary" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#instagram" /></svg
-                ></a>
+                <a class="text-body-secondary" href="#">
+                  <svg class="bi">
+                    <use xlink:href="#instagram" />
+                  </svg>
+                </a>
               </li>
               <li class="ms-3">
-                <a class="text-body-secondary" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#facebook" /></svg
-                ></a>
+                <a class="text-body-secondary" href="#">
+                  <svg class="bi">
+                    <use xlink:href="#facebook" />
+                  </svg>
+                </a>
               </li>
             </ul>
           </footer>
@@ -660,6 +584,32 @@
           slideShadows: true,
         },
       });
+    </script>
+    <script>
+      
+document.addEventListener("DOMContentLoaded", () => {
+  // DOM elements
+  const quote = document.querySelector(".blockquote p");
+  const cite = document.querySelector(".blockquote cite");
+
+  async function updateQuote() {
+    // Fetch a random quote from the Quotable API
+    const response = await fetch("https://api.quotable.io/random");
+    const data = await response.json();
+    if (response.ok) {
+      // Update DOM elements
+      quote.textContent = data.content;
+      cite.textContent = data.author;
+    } else {
+      quote.textContent = "An error occured";
+      console.log(data);
+    }
+  }
+
+  // call updateQuote once when page loads
+  updateQuote();
+  console.log(updateQuote[data]);
+});
     </script>
   </body>
 </html>

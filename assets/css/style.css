@@ -153,22 +153,6 @@ a.dropdown-item:hover {
   justify-content: center;
 }
 
-.porto .swiper {
-  width: 100%;
-  height: 300px;
-}
-
-.porto .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.porto .swiper-slide img {
-  display: block;
-  width: 100%;
-}
 
 /* Marriage End */
 
@@ -193,18 +177,6 @@ a.dropdown-item:hover {
   width: 570px;
   height: 450px;
   /* background-image: url("https://source.unsplash.com/570x600"); */
-}
-/* 
-.why .why-img-bg .img-why{
-  display: block;
-  width: 100px;
-} */
-
-.why .img-container img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
 }
 
 .why .why-point .why-point-item h4 {
@@ -243,11 +215,11 @@ a.dropdown-item:hover {
 /* Porto Section Start */
 
 .porto {
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .porto h2 {
-  padding: 1rem;
+  padding: 2rem;
   font-weight: 700;
   color: var(--head) !important;
   text-align: center;
@@ -268,7 +240,51 @@ a.dropdown-item:hover {
   align-items: center;
 }
 
+
+.porto .swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.porto .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.porto .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
 /* Porto Section End */
+
+/* Quote Section Start */
+
+.quote{
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quote .card{
+  border-style: none;
+}
+
+.quote p{
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--txt);
+  text-align: center;
+}
+
+.quote footer{
+  display: flex;
+  justify-content: end;
+}
+
+/* Quote Section End */
 
 /* Hero Footer Section Start */
 
@@ -296,6 +312,7 @@ a.dropdown-item:hover {
 .hero-footer .ctahero {
   /* background-color: #0a0a23; */
   padding: 3rem;
+  margin-bottom: 50px;
 }
 
 .hero-footer .ctahero h2 {
@@ -325,10 +342,16 @@ a.dropdown-item:hover {
 /* Hero Footer Section End */
 
 /* Footer Section Start */
-
+.footer{
+  margin: 0;
+}
 .footer .footer-logo {
   position: absolute;
   left: 50%;
+}
+
+section.footer {
+  border-top: 1px solid var(--txt);
 }
 
 /* Footer Section End */
