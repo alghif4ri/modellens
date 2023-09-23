@@ -98,11 +98,10 @@
   }
 
   .about .about-img img {
-  width: 680px;
-  height: 350px;
+    width: 680px;
+    height: 350px;
   }
 
-  
   .porto {
     padding-bottom: 1rem;
   }
@@ -120,7 +119,6 @@
     height: 450px;
     /* background-image: url("https://source.unsplash.com/570x600"); */
   }
-
 
   .hovereffect-why {
     background-image: url("https://source.unsplash.com/random/");
@@ -186,8 +184,8 @@
   }
 
   .about .about-img img {
-  width: 680px;
-  height: 350px;
+    width: 680px;
+    height: 350px;
   }
 
   .porto {
@@ -208,7 +206,6 @@
     /* background-image: url("https://source.unsplash.com/570x600"); */
   }
 
-
   .hovereffect-why {
     background-image: url("https://source.unsplash.com/random/");
     background-position: center;
@@ -226,8 +223,6 @@
   div.py-5.text-center.ctahero {
     height: 40vh;
   }
-
-  
 
   .footerer p {
     font-size: 1.1rem;
@@ -272,7 +267,6 @@
     /* background-color: #0a0a23; */
     width: 100%;
   }
-  
 
   .footerer p {
     font-size: 1rem;
@@ -298,8 +292,9 @@
     padding: 0rem;
     display: flex;
     align-items: center;
-    width: 390px;
+    width: 400px;
     height: 400px;
+    left: 50px;
     /* height: 100hv; */
     /* background-color: #000000 !important; */
     background-image: url("https://placehold.co/300x400");
@@ -343,7 +338,7 @@
 
   .about .about-img img {
     width: 570px;
-  height: 250px;
+    height: 250px;
   }
 
   .about .about-text img {
@@ -371,7 +366,6 @@
     height: 250px;
     /* background-image: url("https://source.unsplash.com/570x600"); */
   }
-
 
   .hovereffect-why {
     background-image: url("https://source.unsplash.com/random/");
@@ -438,8 +432,8 @@
   }
 
   .about .about-img img {
-  width: 370px;
-  height: 250px;
+    width: 370px;
+    height: 250px;
   }
 
   .about .about-text img {
@@ -474,7 +468,7 @@
     padding: 0rem;
     display: flex;
     align-items: center;
-    width: 370px;
+    width: 390px;
     height: 400px;
     /* height: 100hv; */
     /* background-color: #000000 !important; */
@@ -518,8 +512,8 @@
   }
 
   .about .about-img img {
-  width: 350px;
-  height: 250px;
+    width: 350px;
+    height: 250px;
   }
 
   .about .about-text img {
@@ -561,7 +555,22 @@
 }
 
 @media (max-width: 375px) {
-.hovereffect-why .overlay h2 {
+
+  .jumbotron-bg {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 300px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/300x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
     font-family: "Poppins", sans-serif !important ;
     font-size: 1.2rem;
     display: flex;
@@ -570,14 +579,27 @@
   }
 
   .about .about-img img {
-  width: 330px;
-  height: 250px;
+    width: 330px;
+    height: 250px;
   }
 }
 
-
 @media (max-width: 320px) {
-.hovereffect-why .overlay h2 {
+  .jumbotron-bg {
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 300px;
+    /* height: 100hv; */
+    /* background-color: #000000 !important; */
+    background-image: url("https://placehold.co/300x400");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hovereffect-why .overlay h2 {
     font-family: "Poppins", sans-serif !important ;
     font-size: 1.2rem;
     display: flex;
@@ -586,7 +608,7 @@
   }
 
   .about .about-img img {
-  width: 280px;
-  height: 250px;
+    width: 280px;
+    height: 250px;
   }
 }
